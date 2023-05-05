@@ -1,0 +1,43 @@
+% Konfiguration der Dokumentenklasse/Vorlage
+\documentclass[
+    ngerman,
+    points=true,
+    accentcolor=8c,
+    type=intern,
+    logofile=./import/tuda_logo.pdf,
+    marginpar=false,
+    HTML
+]{tudaexercise}
+
+% Paketimporte und Konfiguraion
+
+\usepackage[english, main=ngerman]{babel} % Deutsche Sprache
+\usepackage[autostyle]{csquotes}
+
+\usepackage{amsthm} % Mathematische Ausdrücke
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+
+\usepackage{enumitem} % Listen
+
+\usepackage{tabularx} % Tabellen
+
+\usepackage{listings} % Code-Blöcke
+
+% Definition von Macros bzw. Umbelegungen von existierenden
+\newcommand{\sequence}[1]{(#1_n)}
+\renewcommand\qedsymbol{q.e.d.} 
+
+% Dokumentdaten
+\title{LaTeX-Guide \\ Probehausübung}
+\date{\today}
+\author{Ein Name}
+\term{Sommersemester 2042}
+
+% Eigentlicher Dokumentbeginn
+\begin{document}
+
+\maketitle{} % Einfügen des Titel
+
+\end{document}
