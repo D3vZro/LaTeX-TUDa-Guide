@@ -8,7 +8,7 @@
 
 - Mit _Home-Manager_: Man konfiguriert die Option `programs.texlive` in der `home.nix`
 
-- Mit einer _Flake_: Dazu später was
+- Mit einer _Nix-Flake_: Hier ist meine [Flake](https://github.com/TonyTheAce/NixTeX) dazu
 
 ### Obsolete Linux-Betriebssysteme
 
